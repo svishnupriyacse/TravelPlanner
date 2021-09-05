@@ -3,6 +3,7 @@ import { IonicModule } from '@ionic/angular';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { Tab1Page } from './tab1.page';
+import { Tab2Page } from './tab2.page';
 
 describe('Tab1Page', () => {
   let component: Tab1Page;
@@ -22,4 +23,9 @@ describe('Tab1Page', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  gotoAnotherPage(){
+
+  }
+
 });
